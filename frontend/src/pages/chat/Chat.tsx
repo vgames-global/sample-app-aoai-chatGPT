@@ -586,7 +586,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Goodbye chatting</h1>
-                                <h1 className={styles.chatEmptyStateSubtitle}>This chatbot will be closed on May 20th, 2024.</h1>
+                                <h1 className={styles.chatEmptyStateSubtitle}>This chatbot will be closed on May 20th, 2024...</h1>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
