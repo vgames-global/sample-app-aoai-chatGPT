@@ -585,7 +585,7 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Goodbye chatting</h1>
+                                <h1 className={styles.chatEmptyStateTitle}>Goodbye chatting..</h1>
                                 <h1 className={styles.chatEmptyStateSubtitle}>This chatbot will be closed on May 20th, 2024...</h1>
                             </Stack>
                         ) : (
